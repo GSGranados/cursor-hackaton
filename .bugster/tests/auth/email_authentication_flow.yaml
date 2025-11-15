@@ -1,0 +1,10 @@
+name: Email authentication flow
+page: auth
+page_path: app/auth/page.tsx
+task: Test email-based authentication process
+steps:
+- Navigate to authentication page
+- Enter a valid email address in the email input field
+- Click submit button to initiate authentication
+- Verify appropriate feedback or next step is displayed
+expected_result: User can enter email and proceed through authentication flow
