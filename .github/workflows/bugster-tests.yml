@@ -1,7 +1,8 @@
 name: Deploy Preview
 
 on:
-  pull_request:
+    pull_request:
+      branches: [main]
 
 jobs:
   # Add bugster integration after your deployment job
@@ -17,3 +18,4 @@ jobs:
           organization_id: "org_35I9WtAnQuIna70rU8j5wWFMwhZ"
           project_id: "cursor-hackaton-1763169038"
           environment_url: "https://cerebryx.vercel.app/"
+          deployment_state: "success"
