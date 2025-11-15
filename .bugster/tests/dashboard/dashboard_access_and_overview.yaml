@@ -1,0 +1,10 @@
+name: Dashboard access and overview
+page: dashboard
+page_path: app/dashboard/page.tsx
+task: Verify dashboard displays user study data and statistics
+steps:
+- Navigate to dashboard page
+- Verify dashboard content loads properly
+- Check for display of study sessions or progress indicators
+- Verify navigation elements are accessible
+expected_result: Dashboard shows study history, progress, and relevant user metrics

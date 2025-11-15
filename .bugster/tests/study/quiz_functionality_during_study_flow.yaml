@@ -1,0 +1,10 @@
+name: Quiz functionality during study flow
+page: quiz
+page_path: app/study/(flow)/quiz/page.tsx
+task: Test quiz interface and question answering
+steps:
+- Navigate to quiz page within study flow
+- Verify quiz questions are displayed
+- Select or enter an answer for a question
+- Submit the answer and verify feedback or progression
+expected_result: User can view questions and submit answers in quiz mode
